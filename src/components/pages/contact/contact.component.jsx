@@ -5,19 +5,14 @@ import SignUp from '../../sign-up/sign-up.component'
 import './contact.style.scss'
 
 
-class Contact extends React.Component{
-    constructor(){
-        super()
-
-    }
-    render(){
-        return(
+const Contact = () =>
+(
             <div className='contact'>
             <SignUp />fff
             </div>
-        )
-    }
-}
+ )
+    
+
    
 
 
