@@ -1,8 +1,8 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-import {selectCollection, selectCollections} from '../../../redux/shop/shop.selectors.js'
-import CollectionItem from '../../collection-item/collection-item.component'
+import {selectCollection, selectCollections} from '../../redux/shop/shop.selectors.js'
+import CollectionItem from '../../components/collection-item/collection-item.component'
 import './collection.styles.scss'
 const CollectionPage =({collection}) =>{
     const { title, items } = collection
